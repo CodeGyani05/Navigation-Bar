@@ -1,487 +1,119 @@
 # Navigtion Bar
-import turtle
 
-wn=turtle.Screen()           #tom   #848283
-wn.setup(640,640)           #jerry #e485
-wn.title("Laptop")
-wn.bgcolor("blue")
-
-#'''
-#tom
-b=turtle.Turtle()
-b.shapesize(1.5)
-b.speed(0)
-
-
-b.begin_fill()
-b.color("#848283","#848283")
-b.seth(90)
-b.fd(320)
-b.seth(180)
-b.fd(320)
-b.seth(-90)
-b.fd(640)
-b.seth(0)
-b.fd(320)
-b.seth(90)
-b.fd(320)
-b.end_fill()
-
-#winsound.PlaySound("tom.wav",winsound.SND_ASYNC)
-b.bk(10)
-#b.ht()
-b.begin_fill()
-b.color("white","white")
-b.seth(135)
-#b.color("black")
-b.circle(35,36)
-b.circle(300,20)
-b.seth(-60)
-b.circle(-50,115)
-b.fd(30)
-b.seth(-100)
-b.circle(30,55)
-b.seth(100)
-b.circle(-10,55)
-b.circle(-1.5,150)
-b.circle(20,70)
-b.circle(494,22)
-b.end_fill()
-
-#b.color("black")
-b.up()
-b.seth(90)
-b.fd(125)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.circle(30,64)
-b.circle(-55,34)
-b.circle(-7,101)
-b.circle(-75,27)
-b.end_fill()
-#b.fd(30)
-
-b.color("white")
-b.begin_fill()
-b.color("white","white")
-b.up()
-b.seth(-90)
-b.fd(3)
-b.down()
-b.seth(-175)
-b.fd(20)
-b.circle(4,160)
-b.fd(23)
-b.end_fill()
-
-#b.color("green")
-b.up()
-b.seth(-90)
-b.fd(70)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(-163)
-b.circle(-160,54)
-b.seth(-41)
-b.circle(160,30)
-b.seth(-4)
-b.circle(160,25)
-b.end_fill()
-
-b.up()
-b.seth(-90)
-b.fd(50)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(180)
-b.circle(-160,25)
-b.seth(-29)
-b.circle(160,26)
-b.end_fill()
-
-b.up()
-b.seth(180)
-b.fd(2)
-b.seth(90)
-b.fd(156)
-b.seth(180)
-b.fd(105)
-b.down()
-
-b.begin_fill()
-b.color("#fae383","#fae383")
-b.seth(65)
-b.circle(200,50)
-b.circle(10,90)
-b.circle(80,30)
-b.seth(-117)
-b.circle(200,35)
-b.seth(-20)
-b.circle(-100,33)
-b.seth(16)
-b.fd(20)
-b.end_fill()
-
-b.color("black")
-b.up()
-b.seth(65)
-b.circle(200,35)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.pensize(1)
-b.circle(200,5)
-b.pensize(2)
-b.circle(200,10)
-b.circle(10,90)
-b.circle(80,20)
-b.pensize(1)
-b.circle(80,10)
-b.seth(48)
-b.circle(-80,30)
-b.seth(-10)
-b.fd(7)
-b.seth(-68)
-b.fd(50)
-b.end_fill()
-
-b.up()
-b.seth(-97)
-b.fd(125)
-b.down()
-b.begin_fill()
-b.color("#1a9a1a","#46e026")
-b.seth(65)
-b.circle(150,35)
-b.circle(17,147)
-b.circle(150,34)
-b.seth(-46)
-b.fd(15)
-b.seth(18)
-b.fd(20)
-b.end_fill()
-
-b.color("black")
-b.up()
-b.bk(7)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(55)
-b.circle(70,55)
-b.circle(5,127)
-b.circle(70,58)
-b.end_fill()
-
-b.up()
-b.seth(-60)
-b.fd(23)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(150)
-b.circle(250,50)
-b.seth(22)
-b.circle(-250,30)
-b.seth(-12)
-b.circle(-250,20)
-b.end_fill()
-
-b.up()
-b.seth(-60)
-b.fd(12)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(-155)
-b.circle(-250,50)
-b.seth(-27)
-b.circle(250,25)
-b.seth(1)
-b.circle(250,25)
-b.end_fill()
-
-b.up()
-b.seth(92)
-b.fd(35)
-b.down()
-b.begin_fill()
-b.color("#a6a6a6","#a6a6a6")
-b.seth(65)
-b.circle(200,30)
-b.seth(60)
-b.fd(30)
-b.circle(-15,125)
-b.fd(25)
-b.circle(3,158)
-b.fd(45)
-b.circle(-35,84)
-b.seth(-90)
-b.fd(198)
-b.seth(135)
-#b.color("black")
-b.circle(35,36)
-b.circle(300,16)
-b.end_fill()
-
-b.color("black")
-b.up()
-b.seth(90)
-b.fd(200)
-b.seth(0)
-b.fd(30)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(158)
-b.circle(80,90)
-b.seth(100)
-b.circle(-80,35)
-b.seth(43)
-b.circle(-80,44)
-b.seth(-2)
-b.ht()
-b.circle(-50,60)
-b.end_fill()
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="Nav.css">
+ <title>Nav-Bar</title>
+</head>
+<body>
+     <div class="navbar">
+         <a href="#home"> <i class="fa fa-home"></i> <span class="tab1"></span> Home </a>
+         <a href="#home"> <i class="fa fa-code"></i> <span class="tab1"></span> Code </a>
+         <a href="#home"> <i class="fa fa-user"></i> <span class="tab1"></span> Profile </a>
+         <a href="#home"> <i class="fa fa-youtube-play"></i> <span class="tab1"></span> My Channel </a>
+         <div class="dropdown">
+            <button class="dropbtn">More
+                 <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#L1"> <i class="fa fa-link"></i> Link 1 </a>
+              <a href="#L1"> <i class="fa fa-link"></i> Link 2 </a>
+              <a href="#L1"> <i class="fa fa-link"></i> Link 3 </a>
+            </div>
+         </div>
+     </div>
+</body>
+</html>
 
 
 
 
-#right
-b.begin_fill()
-b.color("#848283","#848283")
-b.seth(-90)
-b.fd(320)
-b.seth(-180)
-b.fd(320)
-b.seth(90)
-b.fd(640)
-b.seth(0)
-b.fd(320)
-b.seth(-90)
-b.fd(320)
-b.end_fill()
+#Css👇🏼👇🏼
 
-#winsound.PlaySound("tom.wav",winsound.SND_ASYNC)
-b.bk(10)
-#b.ht()
-b.begin_fill()
-b.color("white","white")
-b.seth(-135)
-#b.color("black")
-b.circle(-35,-36)
-b.circle(-300,-20)
-b.seth(60)
-b.circle(50,-115)
-b.fd(30)
-b.seth(100)
-b.circle(-30,-55)
-b.seth(-100)
-b.circle(10,-55)
-b.circle(1.5,-150)
-b.circle(-20,-70)
-b.circle(-494,-22)
-b.end_fill()
 
-#b.color("black")
-b.up()
-b.seth(-90)
-b.fd(125)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.circle(-30,-64)
-b.circle(55,-34)
-b.circle(7,-101)
-b.circle(75,-27)
-b.end_fill()
-#b.fd(30)
 
-b.color("white")
-b.begin_fill()
-b.color("white","white")
-b.up()
-b.seth(90)
-b.fd(3)
-b.down()
-b.seth(175)
-b.fd(20)
-b.circle(-4,-160)
-b.fd(23)
-b.end_fill()
 
-#b.color("green")
-b.up()
-b.seth(90)
-b.fd(70)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(163)
-b.circle(160,-54)
-b.seth(41)
-b.circle(-160,-30)
-b.seth(4)
-b.circle(-160,-25)
-b.end_fill()
+body{
+ background: #E15D44;
+}
 
-b.up()
-b.seth(90)
-b.fd(50)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(-180)
-b.circle(160,-25)
-b.seth(29)
-b.circle(-160,-26)
-b.end_fill()
+.navbar {
+ border-radius: 50px;
+ overflow: hidden;
+ background-color: #333;
+ font-family: Arial;
+ text-align:center;
+ margin-left: 50px;
+ margin-right: 50px;
+/* margin-top : 300px; */
+}
 
-b.up()
-b.seth(-180)
-b.fd(2)
-b.seth(-90)
-b.fd(156)
-b.seth(-180)
-b.fd(105)
-b.down()
+.navbar a {
+ border-radius: 50px;
+ float: left;
+ font-weight: bold;
+ font-size: 16px;
+ color: white;
+ text-align: center;
+ padding: 14px 20px;
+ text-decoration: none;
+}
 
-b.begin_fill()
-b.color("#fae383","#fae383")
-b.seth(-65)
-b.circle(-200,-50)
-b.circle(-10,-90)
-b.circle(-80,-30)
-b.seth(117)
-b.circle(-200,-35)
-b.seth(20)
-b.circle(100,-33)
-b.seth(-16)
-b.fd(20)
-b.end_fill()
+.dropdown {
+ float: left;
+ overflow: hidden;
+}
 
-b.color("black")
-b.up()
-b.seth(-65)
-b.circle(-200,-35)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.pensize(1)
-b.circle(-200,-5)
-b.pensize(2)
-b.circle(-200,-10)
-b.circle(-10,-90)
-b.circle(-80,-20)
-b.pensize(1)
-b.circle(-80,-10)
-b.seth(48)
-b.circle(80,-30)
-b.seth(10)
-b.fd(7)
-b.seth(68)
-b.fd(50)
-b.end_fill()
+.dropdown .dropbtn {
+ font-size: 16px;
+ border: none;
+ outline: none;
+ color: white;
+ padding: 14px 16px;
+ background-color: inherit;
+ font-family: inherit; 
+ margin: 0; 
+}
 
-b.up()
-b.seth(97)
-b.fd(125)
-b.down()
-b.begin_fill()
-b.color("#1a9a1a","#46e026")
-b.seth(-65)
-b.circle(-150,-35)
-b.circle(-17,-147)
-b.circle(-150,-34)
-b.seth(46)
-b.fd(15)
-b.seth(-18)
-b.fd(20)
-b.end_fill()
+.navbar a:hover, .dropdown:hover .dropbtn {
+ background-color: rgb(0, 0, 0);
+}
 
-b.color("black")
-b.up()
-b.bk(7)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(-55)
-b.circle(-70,-55)
-b.circle(-5,-127)
-b.circle(-70,-58)
-b.end_fill()
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #292626;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
 
-b.up()
-b.seth(-60)
-b.fd(23)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(-150)
-b.circle(-250,-50)
-b.seth(22)
-b.circle(250,-30)
-b.seth(12)
-b.circle(250,-20)
-b.end_fill()
+.dropdown-content a {
+ border-radius: 5px;
+ float: none;
+ color: white;
+ background-color: rgb(0, 0, 0);
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: left;
+}
 
-b.up()
-b.seth(60)
-b.fd(12)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(155)
-b.circle(250,-50)
-b.seth(27)
-b.circle(-250,-25)
-b.seth(1)
-b.circle(-250,-25)
-b.end_fill()
+.dropdown-content a:hover {
+ background-color: #333;
+}
 
-b.up()
-b.seth(-92)
-b.fd(35)
-b.down()
-b.begin_fill()
-b.color("#a6a6a6","#a6a6a6")
-b.seth(-65)
-b.circle(-200,-30)
-b.seth(-60)
-b.fd(30)
-b.circle(15,-125)
-b.fd(25)
-b.circle(-3,-158)
-b.fd(45)
-b.circle(-35,84)
-b.seth(90)
-b.fd(198)
-b.seth(-135)
-#b.color("black")
-b.circle(-35,-36)
-b.circle(-300,-16)
-b.end_fill()
+.dropdown:hover .dropdown-content {
+ display: block;
+ border-radius: 150px;
+}
 
-b.color("black")
-b.up()
-b.seth(-90)
-b.fd(200)
-b.seth(0)
-b.fd(30)
-b.down()
-b.begin_fill()
-b.color("black","black")
-b.seth(-158)
-b.circle(-80,-90)
-b.seth(100)
-b.circle(80,-35)
-b.seth(-43)
-b.circle(80,-44)
-b.seth(2)
-b.ht()
-b.circle(50,-60)
-b.end_fill()
-turtle.done()
+.tab1{
+ padding:2px;
+}
+
