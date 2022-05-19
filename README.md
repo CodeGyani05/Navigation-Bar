@@ -2,7 +2,7 @@
 import turtle
 
 wn=turtle.Screen()           #tom   #848283
-wn.setup(640,640)           #jerry #e48508
+wn.setup(640,640)           #jerry #e4850
 wn.title("Laptop")
 wn.bgcolor("blue")
 
