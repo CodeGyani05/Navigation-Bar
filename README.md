@@ -1,4 +1,4 @@
-# Tom_Code
+# Navigtion Bar
 import turtle
 
 wn=turtle.Screen()           #tom   #848283
